@@ -11,10 +11,7 @@ const config: Config = {
     '<rootDir>/src/**/*.{ts,tsx}',
     '!**/*.d.ts',
     '!**/dtos/**',
-    // '!**/coverage/**',
-    // '!**/utils/test/**',
-    // '!**/constants/**',
-    // '!**/libs/query-client.ts',
+    '!**/src/assets/**',
   ],
 
   moduleNameMapper: {

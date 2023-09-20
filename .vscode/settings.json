@@ -1,0 +1,1 @@
+{ "jestrunner.jestCommand": "cd apps/mobile && npx jest" }
