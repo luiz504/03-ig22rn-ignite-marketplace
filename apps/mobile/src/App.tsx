@@ -5,7 +5,7 @@ import { Home } from './screens/Home'
 
 export function App() {
   return (
-    <View style={styles.container}>
+    <View style={styles.container} testID="container">
       <StatusBar style="auto" />
       <Home />
     </View>
