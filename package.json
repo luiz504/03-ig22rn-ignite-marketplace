@@ -9,11 +9,20 @@
     "packages/*"
   ],
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "dev:server": "cd ./apps/backend && npm run dev",
+    "dev:mobile": "cd ./apps/mobile && npm run dev",
+    "lint": "turbo run lint",
+    "prepare": "husky install"
   },
   "author": "luiz504",
   "license": "MIT",
   "devDependencies": {
+    "@commitlint/cli": "^17.7.1",
+    "@commitlint/config-conventional": "^17.7.0",
+    "@rocketseat/eslint-config": "^2.1.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^14.0.1",
     "turbo": "^1.10.14"
   }
 }
