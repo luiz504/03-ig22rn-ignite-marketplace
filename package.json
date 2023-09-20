@@ -1,0 +1,19 @@
+{
+  "name": "ignite-marketplace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "luiz504",
+  "license": "MIT",
+  "devDependencies": {
+    "turbo": "^1.10.14"
+  }
+}
