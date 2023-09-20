@@ -1,6 +1,7 @@
 # Todo
 
 - [ ] Config jest
+- [ ] Config PhosphorIcons
 - [ ] Config [Native-Base](https://ui.gluestack.io)
 - [ ] Config Style-guide
 - [ ] Create Base Components
