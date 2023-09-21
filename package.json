@@ -9,7 +9,7 @@
     "packages/*"
   ],
   "scripts": {
-    "test": "jest",
+    "test": "turbo run test --filter=!backend",
     "dev:server": "cd ./apps/backend && npm run dev",
     "dev:mobile": "cd ./apps/mobile && npm run dev",
     "lint": "turbo run lint",
