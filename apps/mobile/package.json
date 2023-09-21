@@ -13,6 +13,8 @@
     "test:ci": "jest --coverage"
   },
   "dependencies": {
+    "@gluestack-style/react": "^0.2.49",
+    "@gluestack-ui/themed": "^0.1.48",
     "expo": "~49.0.11",
     "expo-status-bar": "~1.6.0",
     "react": "18.2.0",
