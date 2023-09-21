@@ -6,12 +6,14 @@ import { Test } from '~/components/Test'
 export const Home: FC = () => {
   return (
     <VStack testID="view-container">
-      <Text color="$amber900" bold testID="some-content">
+      <Text color="$backgroundLight900" bold testID="some-content">
         Home
       </Text>
       <Test />
       <Button>
-        <Text>Hello</Text>
+        <Text color="$amber300" fontSize={'$xl'} fontFamily="$heading">
+          Hello
+        </Text>
       </Button>
     </VStack>
   )

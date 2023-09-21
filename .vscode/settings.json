@@ -1,5 +1,4 @@
 {
-  "jestrunner.jestCommand": "cd apps/mobile && npx jest",
   "cSpell.words": ["gluestack"],
   "workbench.colorCustomizations": {
     "activityBar.activeBackground": "#828fb7",
@@ -20,5 +19,7 @@
     "titleBar.inactiveBackground": "#6272a499",
     "titleBar.inactiveForeground": "#e7e7e799"
   },
-  "peacock.color": "#6272a4"
+  "peacock.color": "#6272a4",
+  "jestrunner.jestCommand": "cd apps/mobile && npx jest",
+  "jestrunner.runOptions": ["--coverage"]
 }

@@ -12,6 +12,7 @@ const config: Config = {
     '!**/*.d.ts',
     '!**/dtos/**',
     '!**/src/assets/**',
+    '!**/src/utils/test/**',
   ],
 
   moduleNameMapper: {
